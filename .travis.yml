@@ -7,6 +7,5 @@ install:
 script:
 - dotnet build
 - dotnet test ./Escola.Domain.Tests/Escola.Domain.Tests.csproj
-sudo: required
 services:
 - docker
