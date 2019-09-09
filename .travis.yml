@@ -1,8 +1,12 @@
 language: csharp
 mono: none
 dotnet: 2.2
+solution: "./Escola.sln"
 install:
 - dotnet restore
 script:
 - dotnet build
-- dotnet test
+- dotnet test ./Escola.Domain.Tests/Escola.Domain.Tests.csproj
+sudo: required
+services:
+- docker
