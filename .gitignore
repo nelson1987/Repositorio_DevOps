@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+/Escola/Escola.Domain.Tests/obj
+/Escola/.vs/Escola/v15
