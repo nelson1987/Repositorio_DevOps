@@ -2,19 +2,22 @@ language: csharp
 
 mono: none
 
-dotnet: 2.2
+dotnet: 2.2.100
 
 solution: "./Escola.sln"
+sudo: required
 
-install:
-- dotnet restore
+os:
+-linux
 
 script:
+- dotnet restore
 - dotnet build
 - dotnet test ./Escola/Escola.Domain.Tests/Escola.Domain.Tests.csproj
 
 service:
 - docker
+
 
 # before_install:
 # - docker pull mcr.microsoft.com/dotnet/core/aspnet:2.2
