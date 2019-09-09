@@ -7,9 +7,6 @@ dotnet: 2.2.100
 solution: "./Escola.sln"
 sudo: required
 
-os:
--linux
-
 script:
 - dotnet restore
 - dotnet build
