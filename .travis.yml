@@ -11,7 +11,7 @@ install:
 
 script:
 - dotnet build
-- dotnet test ./Escola.Domain.Tests/Escola.Domain.Tests.csproj
+- dotnet test ./Escola/Escola.Domain.Tests/Escola.Domain.Tests.csproj
 
 service:
 - docker

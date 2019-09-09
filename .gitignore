@@ -32,3 +32,4 @@
 *.app
 /Escola/Escola.Domain.Tests/obj
 /Escola/.vs/Escola/v15
+/Escola/Escola.Api/obj
